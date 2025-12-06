@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Дозволи для камери та доступу до файлів -->
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Constructmanager">
+        <!-- FileProvider для фото з камери -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <activity android:name=".activities.views.DelayViewActivity"></activity>
+        <activity android:name=".activities.forms.DelayFinishFormActivity" />
+        <activity android:name=".activities.forms.DelayFormActivity" />
+        <activity android:name=".activities.views.ResponsabilitySolvedViewActivity" />
+        <activity android:name=".activities.views.ResponsabilityOpenViewActivity" />
+        <activity android:name=".activities.forms.ReponsabilityFormActivity" />
+        <activity android:name=".activities.forms.PhotoFormActivity" />
+        <activity android:name=".activities.forms.BudgetFormActivity" />
+        <activity android:name=".activities.forms.ScheduleFormActivity" />
+        <activity android:name=".activities.views.ConstructionFinishedViewActivity" />
+        <activity android:name=".activities.views.ConstructionCancelledViewActivity" />
+        <activity android:name=".activities.lists.ListPhotosActivity" />
+        <activity android:name=".activities.views.PhotoViewActivity" />
+        <activity android:name=".activities.lists.ListResponsabilitiesActivity" />
+        <activity android:name=".activities.lists.ListSchedulesActivity" />
+        <activity android:name=".activities.lists.ListBudgetsActivity" />
+        <activity android:name=".activities.views.MapViewActivity" />
+        <activity android:name=".activities.views.InfoViewActivity" />
+        <activity android:name=".activities.views.ScheduleViewActivity" />
+        <activity android:name=".activities.views.BudgetViewActivity" />
+        <activity android:name=".activities.views.ConstructionExecViewActivity" />
+        <activity android:name=".activities.views.ConstructionPrepViewActivity" />
+        <activity android:name=".activities.forms.ConstructionPrepFormActivity" />
+        <activity android:name=".activities.lists.ListConstructionsActivity" />
+        <activity android:name=".activities.forms.UpdatePasswordFormActivity" />
+        <activity android:name=".activities.forms.UpdateEmailFormActivity" />
+        <activity android:name=".activities.HomeActivity" />
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.forms.SignUpFormActivity" />
+    </application>
+
+</manifest>

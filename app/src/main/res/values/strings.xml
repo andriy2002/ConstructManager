@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Construct Manager</string>
+    <string name="info">Інформація</string>
+    <string name="budget">Бюджет</string>
+    <string name="schedule">Хронологія</string>
+    <string name="photo">Фотографії</string>
+    <string name="map">Карта</string>
+    <string name="resp">Обов\'язки</string>
+    <string name="responsibles">Відповідальний</string>
+    <string name="cancelled">Скасовано</string>
+    <string name="exec">Виконання</string>
+    <string name="deadline">Термін (дд/мм/РРРР)</string>
+    <string name="desc">Опис</string>
+    <string name="title">Заголовок</string>
+    <string name="open">Відкриті</string>
+    <string name="on_schedule">Вчасно</string>
+    <string name="reason">Причина</string>
+    <string name="aditional_info">Додаткова інформація</string>
+    <string name="delay_days">Орієнтовна кількість днів затримки</string>
+    <string name="value">Сума</string>
+    <string name="finished">Завершено</string>
+    <string name="add">Додати</string>
+    <string name="email">Я підтвердив email</string>
+    <string name="obras">Об\'єкти</string>
+    <string name="alterar_e_mail">Змінити E-mail</string>
+    <string name="alterar_senha">Змінити пароль</string>
+    <string name="sair">Вийти</string>
+    <string name="e_mail_address">E-mail адреса</string>
+    <string name="id">ID</string>
+    <string name="conta_n_o_verificada">Акаунт не підтверджено</string>
+    <string name="e_mail_atual">Поточний E-mail</string>
+    <string name="novo_e_mail">Новий E-mail</string>
+    <string name="atualizar_e_mail">Оновити E-mail</string>
+    <string name="enviar_e_mail_de_verifica_o">Надіслати лист підтвердження</string>
+    <string name="cadastrar">Додати</string>
+    <string name="textview">TextView</string>
+    <string name="t_tulo">Заголовок</string>
+    <string name="endereco">Адреса</string>
+    <string name="tipo_de_obra">Тип об\'єкту</string>
+    <string name="atraso_desculp_vel">Виправдане запізнення</string>
+    <string name="atraso_compens_vel">Компенсоване запізнення</string>
+    <string name="atraso_concorrente">Конкурентне запізнення</string>
+    <string name="atraso_cr_tico">Критичне запізнення</string>
+    <string name="notificar_respons_veis">Повідомити відповідальних</string>
+    <string name="pr_ximo">Далі</string>
+    <string name="responsabilidades">Відповідальності</string>
+    <string name="cronograma">Графік</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Пароль</string>
+    <string name="entrar">Увійти</string>
+    <string name="cadastre_se_agora">Зареєструйтесь зараз!</string>
+    <string name="nova_senha">Новий пароль</string>
+    <string name="repetir_nova_senha">Повторіть новий пароль</string>
+    <string name="atualizar_senha">Оновити пароль</string>
+    <string-array name="usertypes">
+        <item>Замовник</item>
+        <item>Виконавець</item>
+    </string-array>
+</resources>

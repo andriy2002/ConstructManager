@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Зображення фото -->
+    <ImageView
+        android:id="@+id/item_photo_img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/loading" />
+
+    <!-- Опис фото -->
+    <TextView
+        android:id="@+id/item_photo_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Опис фото"
+        android:textSize="16sp"
+        android:paddingTop="4dp" />
+
+</LinearLayout>
